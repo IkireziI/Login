@@ -2,15 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:grey;
+    background-color:rgb(62, 62, 214);
   }
   
   .login-container {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background-color: darkgray;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color:; */
+    box-shadow:whitesmoke;
     margin-top: 50px;
   }
   
@@ -38,12 +38,22 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #1f201f;
-    color: white;
+    background-color:rgb(232, 232, 15);
+    color: rgb(62, 62, 214);
     cursor: pointer;
   }
   
   input[type="submit"]:hover {
-    background-color: #878987;
+    background-color:yellowF0F41D;
   }
-  
+  h6 {
+    color: white; /* White color for the h6 text */
+}
+
+a {
+    color: yellow; /* Yellow color for the anchor tag */
+    text-decoration: none;
+}
+h1, form {
+  color: white; /* White color for h1 and form */
+}
